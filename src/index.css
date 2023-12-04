@@ -11,3 +11,106 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar{
+  background-color: #333;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+.nav-link{
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.home-container{
+  text-align: center;
+  padding: 2rem;
+}
+.home-heading{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.home-description{
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+.home-image{
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.shop-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.product-card{
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  margin: 1rem;
+  width: 250px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+.product-card:hover{
+  transform: scale(1.05);
+}
+.product-title{
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.product-description{
+  color: #555;
+  margin-bottom: 1rem;
+}
+.product-price{
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.quantity-input{
+  width: 50px;
+  margin: 0 0.5rem;
+}
+.add-to-cart-btn{
+  background-color: #4caf50;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.shop-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.shopping-cart{
+   border: 1px solid #ddd;
+   padding: 1.5rem;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   margin-top: 1rem;
+}
+.shopping-cart h2{
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.shopping-cart ul{
+  list-style: none;
+  padding: 0;
+}
+.shopping-cart li{
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
